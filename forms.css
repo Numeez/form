@@ -1,0 +1,55 @@
+.form{
+  position: absolute;
+  top:25px;
+  left: 500px;
+  border: 1px solid purple;
+  border-radius: 1%;
+  padding-top: 10px;
+  padding-bottom:10px;
+  padding-right: 50px;
+  padding-left: 50px;
+  text-align: left;
+  font-family: "Noto Sans Display";
+  font-weight: bolder;
+}
+.form-btn{
+  margin-top: 10px;
+  border: 1px solid purple;
+}
+.form-btn:hover{
+  background-color: purple;
+}
+.form-h1{
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: "Roboto"
+
+}
+
+hr{
+  width: 100%;
+}
+
+input{
+  color: purple;
+}
+.form-control{
+  border: 1px solid purple;
+  color: purple;
+}
+
+.form-check-input{
+  background-color: purple;
+}
+@media(max-width:853px){
+  .form{
+    left:300px;
+    top:30px;
+  }
+}
+@media(max-width:630px){
+  .form{
+    left:200px;
+    top:35px;
+  }
+}
